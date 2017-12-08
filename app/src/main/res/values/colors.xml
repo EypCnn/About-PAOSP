@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+        <color name="colorPrimary">#000000</color>
+        <color name="colorPrimaryDark">#000000</color>
+        <color name="porn">#ffa000</color>
+        <color name="beyaz">#ffffff</color>
+    <color name="karisik">#b9b9b9</color>
+        <color name="colorAccent">#ffffff</color>
+        <color name="mavi">#3498db</color>
+        <color name="koyumavi">#2980b9</color>
+        <color name="yesil">#2ecc71</color>
+        <color name="koyuyesil">#27ae60</color>
+        <color name="turkuaz">#1abc9c</color>
+        <color name="koyuturkuaz">#16a085</color>
+        <color name="mor">#9b59b6</color>
+        <color name="koyumor">#8e44ad</color>
+        <color name="kirmizi">#e74c3c</color>
+        <color name="koyukirmizi">#c0392b</color>
+        <color name="turuncu">#e67e22</color>
+        <color name="koyuturuncu">#d35400</color>
+        <color name="sari">#f1c40f</color>
+        <color name="koyusari">#f39c12</color>
+        <drawable name="transparent">#00000000</drawable>
+        <drawable name="clicked_gray">#80e0e0e0</drawable>
+
+    </resources>

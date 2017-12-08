@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#2b2b2b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="@string/title5"
+                android:textColor="@color/porn"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card1"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="Mateusz Korzeniewski"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView2" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view3" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view3"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Developer"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card2"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="edi194"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView3" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView3"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view4" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view4"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Developer"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card3"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/appdev"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="EypCnn"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView4" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView4"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view5" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view5"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="About App Developer"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/title55"
+                android:textColor="@color/porn"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/card4"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="edi194"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView5" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view6" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view6"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Official Maintained Mido (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="matikorzenio"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView6" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView6"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view7" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view7"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Official Maintained Cancro (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="ball1nukra1n3"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView7" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView7"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view8" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view8"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="UnOfficial Maintained Harpia (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="ball1nukra1n3"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView8" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView8"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view9" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view9"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="UnOfficial Maintained Surnia (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="irvin16"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView9" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView9"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view10" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view10"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="UnOfficial Maintained Potter (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="sarthakmalla"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView10" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView10"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view11" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view11"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="UnOfficial Maintained Hydrogen  (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="sarthakmalla"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView11" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView11"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view12" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view12"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="UnOfficial Maintained Helium (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="irvin16"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView12" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView12"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view13" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view13"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="UnOfficial Maintained Kenzo (nougat)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginBottom="60dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp">
+                    <RelativeLayout
+                        android:layout_marginBottom="60dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:src="@drawable/phone"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="JavAster"
+                            android:textColor="#2c3e50"
+                            android:textSize="25sp"
+                            android:textStyle="bold"
+                            android:id="@+id/textView13" />
+
+                        <View
+                            android:layout_width="150dp"
+                            android:layout_height="2dp"
+                            android:layout_below="@+id/textView13"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="6dp"
+                            android:background="#2c3e50"
+                            android:id="@+id/view14" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/view14"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Official Maintained Mido (oreo)"
+                            android:textAlignment="center"
+                            android:textColor="#2c3e50" />
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
